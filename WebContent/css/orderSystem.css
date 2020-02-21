@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+	background: url(../pic/bgPic.jpg) center;
+	opacity: 95%;
+}
+
+.bgcolor , .body{
+	background: linear-gradient(45deg, #FFD3A3 0%, #F8DDAF 75%);
+	background: -moz-linear-gradient(45deg, #FFD3A3 0%, #F7DDAF 75%);
+	background: -webkit-linear-gradient(45deg, #FFD3A3 0%, #F4D8A3 75%);
+	background: -o-linear-gradient(45deg, #FFD3A3 0%, #F7DDAF 75%);
+}
+
+/* =========================================================================== */
+
+.div {
+	margin: 2%;
+	text-align: center;
+}
+
+.title{
+	color: #5f9bce;
+	font-family: 'Abril Fatface', serif;
+}
+.title h1{
+	margin-bottom: 1%;
+}
+
+/* ================================== qTable ========================================= */
+
+.qTable {
+	text-align: center;
+	border-spacing: 0;
+	width: 100%;
+	padding: 2%;
+	/* border: 1px black solid;  */
+}
+
+.qTable th {
+	background-color: #f19832;
+	padding: 2px;
+}
+
+.qTable td{
+	border-top:1px black solid;
+}
+
+/* ================================== eTable ========================================= */
+
+.eTable span,
+.eTable img {
+	float: left;
+	margin: 1%;
+}
+
+.eTable span {
+	margin: 2%;
+	font-size:13pt;
+}
+
+.eTable span font{
+	color:red;
+}
+
+.eTable {
+	width: 80%;
+	margin: 0 10%;
+	padding: 1%;
+	border-spacing: 0;
+}
+
+.eTable td {
+	border-bottom:1px black solid;
+	text-align: left;
+	padding-left: 20px;
+}
+.eTable td:first-child {
+	width:65%;
+}
+
+/* =========================================================================== */
+
+input[type="button"] {
+	font-size: 14pt;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #f3b355;
+}
+
+input[type="button"]:hover {
+	background-color: #f19816;
+}
+
+.lbladd {
+	font-size: 18pt;
+	color: red;
+	font-weight: bold;
+}
